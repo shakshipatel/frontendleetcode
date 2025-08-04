@@ -1,12 +1,40 @@
-# React + Vite
+# 🧠 LeetCode Frontend with Judge0 Integration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend web app that replicates the LeetCode problem-solving experience, enhanced with live code execution using the [Judge0 API](https://judge0.com/). This project supports real-time code compilation, problem filtering, and a responsive UI optimized for coding.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧑‍💻 Built-in code editor (Monaco)
+- 🛠️ Real-time code execution via **Judge0**
+- 📚 LeetCode-style problems with test cases
+- 🎯 Difficulty filter and search
+- 🌙 Dark/Light mode toggle
+- ⚡ Fast, responsive, and mobile-friendly UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – Frontend framework
+- **TypeScript** – Type-safe development
+- **Tailwind CSS** – Utility-first styling
+- **Monaco Editor** – Embedded code editor
+- **Axios** – API requests to Judge0
+- **React Router** – Routing
+
+---
+
+## 🔗 Judge0 Setup
+
+This project uses [Judge0 API (RapidAPI or self-hosted)] for compiling and running code.
+
+### 🧾 Required Setup
+
+1. Get your Judge0 API key (via [RapidAPI](https://rapidapi.com/judge0-official/api/judge0-ce/))  
+2. Add the following to your `.env` file:
+
+```env
+VITE_JUDGE0_API_URL=https://judge0-ce.p.rapidapi.com
+VITE_JUDGE0_API_KEY=your_rapidapi_key
