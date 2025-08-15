@@ -15,6 +15,7 @@ A frontend web app that replicates the LeetCode problem-solving experience, enha
 
 ---
 
+
 ## 🛠️ Tech Stack
 
 - **React.js** – Frontend framework
@@ -34,6 +35,7 @@ This project uses [Judge0 API (RapidAPI or self-hosted)] for compiling and runni
 
 1. Get your Judge0 API key (via [RapidAPI](https://rapidapi.com/judge0-official/api/judge0-ce/))  
 2. Add the following to your `.env` file:
+
 
 ```env
 VITE_JUDGE0_API_URL=https://judge0-ce.p.rapidapi.com
